@@ -1,0 +1,1 @@
+console.log(`${(gets() / gets()).toFixed(3)} km/l`);
