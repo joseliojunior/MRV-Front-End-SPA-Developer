@@ -11,6 +11,6 @@ Deixarei agrupado pastas que terão soluções em JavaScript para os vários cas
 
 **Desafios** → *joseliojunior/MRV-Front-End-SPA-Developer/challenges*
 
-- ↳	[1.1 - Exibindo Números Pares](?)
-- ↳	[1.2 - Consumo Médio do Automóvel](?)
-- ↳	[1.3 - Compras no Supermercado](?)
+- ↳	[1.1 - Exibindo Números Pares](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/firstgroup/01.%20Exibindo%20N%C3%BAmeros%20Pares.js)
+- ↳	[1.2 - Consumo Médio do Automóvel](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/firstgroup/02.%20Consumo%20M%C3%A9dio%20do%20Autom%C3%B3vel.js)
+- ↳	[1.3 - Compras no Supermercado](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/firstgroup/03.%20Compras%20no%20Supermercado.js)
