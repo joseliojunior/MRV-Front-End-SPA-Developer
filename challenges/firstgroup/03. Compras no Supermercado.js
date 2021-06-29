@@ -6,4 +6,4 @@ for (let i = 0; i < totalItems; i++) {
   let itensUnicos = itensOrdenados.filter((elm, i, arr) => { return arr.indexOf(elm) === i; });
   let resposta = [...itensUnicos].join(" ");
   console.log(resposta);
-}
+};
