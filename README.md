@@ -9,6 +9,8 @@ Deixarei agrupado pastas que terão soluções em JavaScript para os vários cas
 
 ## Acesso rápido
 
+## ⚠ Links das respostas bloqueados no momento! ⚠
+
 **Desafios** → *joseliojunior/MRV-Front-End-SPA-Developer/challenges*
 
 - ↳	[1.1 - Exibindo Números Pares](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/firstgroup/01.%20Exibindo%20N%C3%BAmeros%20Pares.js)
