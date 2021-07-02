@@ -19,6 +19,6 @@ Deixarei agrupado pastas que terão soluções em JavaScript para os vários cas
 - ↳	[2.1 - Aumento de Salário](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/secondgroup/01.%20Aumento%20de%20Sal%C3%A1rio.js)
 - ↳	[2.2 - Quantidade de Números Positivos](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/secondgroup/02.%20Quantidade%20de%20N%C3%BAmeros%20Positivos.js)
 - ↳	[2.3 - Análise de números](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/secondgroup/03.%20An%C3%A1lise%20de%20N%C3%BAmeros.js)
-- ↳	[3.1 - Área Superior](?)
+- ↳	[3.1 - Área Superior](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/thirdgroup/01.%20%C3%81rea%20Superior.js)
 - ↳	[3.2 - Folha de Pagamento](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/thirdgroup/02.%20Folha%20de%20Pagamento.js)
 - ↳	[3.3 - Quanta Mandioca](https://github.com/joseliojunior/MRV-Front-End-SPA-Developer/blob/main/challenges/thirdgroup/03.%20Quanta%20Mandioca.js)
