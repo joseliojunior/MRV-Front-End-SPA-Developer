@@ -5,7 +5,7 @@
 
 const numero = [];
 for (let i = 0; i < 5; i++) {
-    numero.push(Number(gets()))
+    numero.push(Number(gets()));
 }
 
 const pares = numero.filter(e => e % 2 == 0);
