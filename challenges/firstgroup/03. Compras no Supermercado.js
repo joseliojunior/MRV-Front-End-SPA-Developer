@@ -3,12 +3,7 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 
-const totalItems = gets();
-
-for (let i = 0; i < totalItems; i++) {
-  let itens = gets();
-  let itensOrdenados = itens.split(' ').sort();
-  let itensUnicos = new Set(itensOrdenados);
-  let resposta = [...itensUnicos].join(' ');
-  console.log(resposta);
+const total = gets(); 
+for (let i = 0; i < total; i++) {
+  console.log([...new Set(gets().split(' ').sort())].join(' '));
 }
