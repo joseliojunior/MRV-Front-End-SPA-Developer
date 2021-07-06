@@ -3,8 +3,7 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 
-const salary = Number(gets());
-
+const salary = +gets();
 let percent;
 
 if (salary <= 400 ) {
