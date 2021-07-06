@@ -3,14 +3,12 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 
-let total = 0,
-i = 0,
-valor;
+let total = 0, i = 0, valor;
 
 while (i < 6) {
-    valor = parseFloat(gets());
+    valor = +gets();
     if (valor > 0) total++;
     i++;
-}
+};
 
 console.log(`${total} valores positivos`);
