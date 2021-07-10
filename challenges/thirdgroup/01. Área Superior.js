@@ -11,7 +11,7 @@ arr = [];
 for (let i = 0; i <= 4; i++) {
     arr.push([]);
     for (let j = 0; j < 12; j++) {
-        arr[i].push(Number(gets()));
+        arr[i].push(+gets());
     }
     arr[i] = arr[i].slice(x, y);
     x++, y--;
