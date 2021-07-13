@@ -3,4 +3,4 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 
-console.log(`${( Number(gets()) / Number(gets()) ).toFixed(3)} km/l`);
+console.log(`${(+gets() / +gets()).toFixed(3)} km/l`);
