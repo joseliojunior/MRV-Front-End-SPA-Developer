@@ -4,9 +4,8 @@
  */
 
 const salary = +gets();
-let percent;
-
-percent = salary <= 400 ? 15
+      
+const percent = salary <= 400 ? 15
   : salary >= 400.01 && salary <= 800 ? 12
     : salary >= 800.01 && salary <= 1200 ? 10
       : salary >= 1200.01 && salary <= 2000 ? 7
