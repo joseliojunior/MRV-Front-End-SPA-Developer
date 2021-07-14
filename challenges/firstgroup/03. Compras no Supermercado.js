@@ -3,7 +3,6 @@
  * @copyright Josélio de S. C. Júnior 2021
  */
 
-const total = gets(); 
-for (let i = 0; i < total; i++) {
+for (let i = 0, j = +gets(); i < j; i++) {
   console.log([...new Set(gets().split(' ').sort())].join(' '));
 }
