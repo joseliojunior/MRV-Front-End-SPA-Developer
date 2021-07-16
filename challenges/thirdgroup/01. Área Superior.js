@@ -4,22 +4,15 @@
  */
 
 const operator = gets();
-let x = 1, y = 11,
-total = 0,
-arr = [];
+let x = 1, y = 11;
 
-for (let i = 0; i <= 4; i++) {
-    arr.push([]);
-    for (let j = 0; j < 12; j++) {
-        arr[i].push(+gets());
-    }
-    arr[i] = arr[i].slice(x, y);
-    x++, y--;
-}
+const arr = Array.from(Array(5), () =>
+    Array.from(Array(12), () => +gets()))
+        .map(e => (e = e.slice(x, y), x++, y--, e)      
+).flat();
 
-arr = arr.flat();
-total = arr.reduce((a, b) => a + b);
+let total = arr.reduce((a, b) => a + b);
 
-if (operator === 'M') total = total / arr.length;
+if (operator === 'M') total /= arr.length;
 
 console.log(total.toFixed(1));
