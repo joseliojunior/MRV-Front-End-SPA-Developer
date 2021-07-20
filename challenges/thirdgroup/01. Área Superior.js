@@ -13,6 +13,6 @@ const arr = Array.from(Array(5), () =>
 
 let total = arr.reduce((a, b) => a + b);
 
-if (operator === 'M') total /= arr.length;
+operator === 'M' ? total /= arr.length : total;
 
 console.log(total.toFixed(1));
