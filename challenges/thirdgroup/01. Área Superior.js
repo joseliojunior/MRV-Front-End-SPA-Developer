@@ -4,35 +4,24 @@
  */
 
 const operator = gets();
-
 const fl = gets();
-let arr = [];
+const arr = [];
 let x, y;
 
 if (fl.match(/\s/g)) {
     x = 1, y = 11;
-
     const fn = x => x.replace(/\s+/g, ' ').trim().split(' ').map(e => +e);
-    const subArr = [fn(fl)];
 
-    for (let i = 0; i < 4; i++) {
-        const mArr = fn(gets());
-        subArr.push(mArr);
-    }
-
-    for (let i = 0; i < subArr.length; i++) {
-        arr.push(subArr[i].slice(x, y));
-        x++, y--;
-    }
-
-    arr = arr.flat();
-
+    arr.push(...[fn(fl), ...Array.from(Array(4), () => fn(gets()))]
+        .map(e => (e = e.slice(x, y), x++, y--, e))
+        .flat());
 } else {
     x = 0, y = 10;
+
     arr.push(...Array.from(Array(5), () =>
         Array.from(Array(12), () => +gets()))
-        .map(e => (e = e.slice(x, y), x++, y--, e)
-        ).flat());
+        .map(e => (e = e.slice(x, y), x++, y--, e))
+        .flat());
 };
 
 let total = arr.reduce((a, b) => a + b);
