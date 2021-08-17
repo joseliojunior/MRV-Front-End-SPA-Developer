@@ -5,25 +5,22 @@
 
 const operator = gets();
 const fl = gets();
-const arr = [];
-let x, y;
+let x = 1, y = 11, arr = [];
 
 if (fl.match(/\s/g)) {
-    x = 1, y = 11;
     const fn = x => x.replace(/\s+/g, ' ').trim().split(' ').map(e => +e);
 
-    arr.push(...[fn(fl), ...Array.from(Array(4), () => fn(gets()))]
-        .map(e => (e = e.slice(x, y), x++, y--, e))
-        .flat());
+    arr.push(...[fn(fl), ...Array.from(Array(4), () => fn(gets()))])
 } else {
-    x = 0, y = 10;
-
-    arr.push(...Array.from(Array(5), () =>
-        Array.from(Array(12), () => +gets()))
-        .map(e => (e = e.slice(x, y), x++, y--, e))
-        .flat());
+    arr.push([fl, ...Array.from(Array(11), _ => +gets())],
+        ...Array.from(Array(4), _ =>
+            Array.from(Array(12), _ => +gets()))
+    );
 };
 
-let total = arr.reduce((a, b) => a + b);
-operator === 'M' ? total /= arr.length : total;
+const sum = arr.slice(0, 5)
+    .flatMap(e => (e = e.slice(x, y), x++, y--, e))
+    .reduce((a, b) => a + b);
+
+const total = operator === 'M' ? sum / 30 : sum;
 console.log(total.toFixed(1));
