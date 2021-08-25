@@ -18,8 +18,7 @@ if (fl.match(/\s/g)) {
     );
 };
 
-const sum = arr.slice(0, 5)
-    .flatMap(e => (e = e.slice(x, y), x++, y--, e))
+const sum = arr.flatMap(e => (e = e.slice(x, y), x++, y--, e))
     .reduce((a, b) => a + b);
 
 const total = operator === 'M' ? sum / 30 : sum;
