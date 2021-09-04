@@ -3,7 +3,7 @@
   <img src="https://badges.pufler.dev/updated/joseliojunior/MRV-Front-End-SPA-Developer">
 </p>
 
-# Que bom ter você por aqui! 🤩 ![](https://joseliojunior.github.io/ghc-tags/lang/javascript/rounded.png)
+# Que bom ter você por aqui! 🤩 ![](https://joseliojunior.github.io/ghc-tags/lang/javascript/rounded.svg)
 
 Deixarei agrupado pastas que terão soluções em JavaScript para os vários casos propostos no bootcamp MRV Front End SPA Developer da DIO (*Digital Innovation One*).
 
